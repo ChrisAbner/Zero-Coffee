@@ -353,7 +353,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="16dp"
                     android:fontFamily="@font/open_sans_bold"
-                    android:text="ORDER ITEM(S)"
+                    android:text="PEDIR ARTICULO(S)"
                     android:textColor="@color/captionColor"
                     android:textSize="12sp" />
 
@@ -395,7 +395,7 @@
                             android:layout_weight="1"
                             android:fontFamily="@font/open_sans_semibold"
                             android:gravity="center|start"
-                            android:text="Item Total"
+                            android:text="Total de artículos"
                             android:textColor="@android:color/tab_indicator_text"
                             android:textSize="14sp"
                             android:textStyle="bold" />
@@ -439,7 +439,7 @@
                             android:layout_weight="1"
                             android:fontFamily="@font/open_sans_semibold"
                             android:gravity="center|start"
-                            android:text="Delivery charges"
+                            android:text="Cargos de entrega"
                             android:textColor="@android:color/tab_indicator_text"
                             android:textSize="14sp"
                             android:textStyle="bold" />
@@ -487,8 +487,7 @@
                             android:gravity="center|start"
                             android:textColor="@android:color/tab_indicator_text"
                             android:textSize="14sp"
-                            android:textStyle="bold"
-                            tools:text="Paid Via Paytm" />
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="0dp"

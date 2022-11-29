@@ -62,7 +62,7 @@
                         android:layout_marginTop="16dp"
                         android:gravity="center|start"
                         android:paddingTop="3dp"
-                        android:text="Manage and track\nyour orders"
+                        android:text="Gestión y seguimiento\nde sus pedidos"
                         android:textAppearance="@style/AppbarTitle"
                         android:textColor="@android:color/black" />
 

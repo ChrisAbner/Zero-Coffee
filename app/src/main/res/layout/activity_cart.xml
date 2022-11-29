@@ -129,7 +129,7 @@
                         android:fontFamily="@font/open_sans_semibold"
                         android:gravity="center|end"
                         android:minWidth="60dp"
-                        android:text="₹0"
+                        android:text="$0"
                         android:textColor="@android:color/black"
                         android:textSize="14sp"
                         android:textStyle="bold" />
@@ -192,7 +192,7 @@
                         android:fontFamily="@font/open_sans_bold"
                         android:gravity="center|end"
                         android:minWidth="60dp"
-                        android:text="₹50"
+                        android:text="$50"
                         android:textColor="@color/colorAccent"
                         android:textSize="14dp"
                         android:textStyle="bold" />
@@ -212,7 +212,7 @@
                     android:gravity="center|start"
                     android:padding="16dp"
                     android:textStyle="bold"
-                    tools:text="Any information to convey to Sathyas Main Canteen?" />
+                    tools:text="Indicaciones de entrega o número de contacto" />
 
                 <View
                     android:layout_width="match_parent"
