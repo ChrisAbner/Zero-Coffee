@@ -47,7 +47,7 @@
 			app:layout_constraintStart_toStartOf="parent"
 			app:layout_constraintTop_toBottomOf="@+id/image_profile_pic"
 			app:layout_constraintVertical_chainStyle="packed"
-			tools:text="Customer Name Name Name Name Name Name Name Name Name" />
+			tools:text="Chris Abner" />
 
 		<TextView
 			android:id="@+id/text_email"
@@ -62,7 +62,7 @@
 			app:layout_constraintEnd_toEndOf="parent"
 			app:layout_constraintStart_toStartOf="parent"
 			app:layout_constraintTop_toBottomOf="@id/text_customer_name"
-			tools:text="lapradeep21@gmail.com.com.com.com.com.com.com.com.com" />
+			tools:text="chrisabner@hotmail.com" />
 
 	</androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
