@@ -44,7 +44,7 @@
 					android:textColor="@android:color/black"
 					android:textSize="16sp"
 					android:textStyle="bold"
-					tools:text="Sathyas Main Canteen" />
+					tools:text="UCC Cafetería" />
 
 				<TextView
 					android:id="@+id/text_shop_desc"

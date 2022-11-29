@@ -74,7 +74,7 @@
                             android:paddingTop="3dp"
                             android:textAppearance="@style/AppbarTitle"
                             android:textColor="@android:color/white"
-                            tools:text="Good Evening,\nShrikanth" />
+                            tools:text="Buenas tardes,\nUlises Morales" />
 
 
                     </LinearLayout>
