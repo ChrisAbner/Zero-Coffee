@@ -90,7 +90,7 @@
 				android:layout_height="wrap_content"
 				android:layout_marginTop="8dp"
 				android:fontFamily="@font/poppins_semibold"
-				android:text="Send OTP"
+				android:text="Enviar código de verificación"
 				android:textSize="18sp"
 				android:textStyle="bold"
 				app:backgroundTint="@android:color/black" />

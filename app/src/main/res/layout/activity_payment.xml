@@ -42,7 +42,7 @@
                 android:fontFamily="@font/poppins_bold"
                 android:gravity="center|start"
                 android:paddingTop="3dp"
-                android:text="Payment"
+                android:text="Pago"
                 android:textAppearance="@style/AppbarTitle"
                 android:textColor="@android:color/black"
                 android:textSize="32sp" />
@@ -54,7 +54,7 @@
                 android:fontFamily="@font/poppins_semibold"
                 android:gravity="center|start"
                 android:paddingTop="3dp"
-                android:text="Select a payment mode"
+                android:text="Selecciona un método de pago"
                 android:textSize="14sp" />
 
             <com.google.android.material.card.MaterialCardView
@@ -74,14 +74,15 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
+
                         <com.google.android.material.radiobutton.MaterialRadioButton
                             android:id="@+id/radio_credit"
                             android:layout_width="0dp"
-                            android:layout_weight="1"
                             android:layout_height="wrap_content"
+                            android:layout_weight="1"
                             android:fontFamily="@font/poppins_semibold"
                             android:paddingStart="8dp"
-                            android:text="Credit Card"
+                            android:text="Efectivo"
                             android:textColor="@android:color/black"
                             android:textSize="14sp"
                             android:textStyle="bold" />
@@ -231,14 +232,15 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
+
                         <com.google.android.material.radiobutton.MaterialRadioButton
                             android:id="@+id/radio_debit"
                             android:layout_width="0dp"
-                            android:layout_weight="1"
                             android:layout_height="wrap_content"
+                            android:layout_weight="1"
                             android:fontFamily="@font/poppins_semibold"
                             android:paddingStart="8dp"
-                            android:text="Debit Card"
+                            android:text="Transferencia interbancaria"
                             android:textColor="@android:color/black"
                             android:textSize="14sp"
                             android:textStyle="bold" />
@@ -386,14 +388,15 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
+
                         <com.google.android.material.radiobutton.MaterialRadioButton
                             android:id="@+id/radio_bhim"
                             android:layout_width="0dp"
-                            android:layout_weight="1"
                             android:layout_height="wrap_content"
+                            android:layout_weight="1"
                             android:fontFamily="@font/poppins_semibold"
                             android:paddingStart="8dp"
-                            android:text="BHIM UPI"
+                            android:text="Pago con tarjeta (proximamente)"
                             android:textColor="@android:color/black"
                             android:textSize="14sp"
                             android:textStyle="bold" />
