@@ -100,29 +100,29 @@ class CartActivity : AppCompatActivity() {
                     Handler().postDelayed({
                         snackBar.show()
                     },500)
-                    Toast.makeText(applicationContext,"Please choose a delivery location",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(applicationContext,"Por favor elige una ubicación de entrega",Toast.LENGTH_SHORT).show()
                 }else{
                     if(cart.isEmpty()){
-                        Toast.makeText(applicationContext,"Cart is empty",Toast.LENGTH_SHORT).show()
+                        Toast.makeText(applicationContext,"El carrito esta vacío",Toast.LENGTH_SHORT).show()
                     }else{
                         showOrderConfirmation()
                     }
                 }
             }else{
                 if(cart.isEmpty()){
-                    Toast.makeText(applicationContext,"Cart is empty",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(applicationContext,"El carrito esta vacío",Toast.LENGTH_SHORT).show()
                 }else{
                     showOrderConfirmation()
                 }
             }
         }
-        errorSnackBar.setAction("Try again") {
+        errorSnackBar.setAction("Intentar otra vez") {
             viewModel.verifyOrder(placeOrderRequest)
         }
         binding.radioPickup.setOnClickListener {
             binding.radioPickup.isChecked = true
             binding.radioDelivery.isChecked = false
-            binding.textDeliveryPrice.text = "₹0"
+            binding.textDeliveryPrice.text = "$0"
             isPickup = true
             binding.textDeliveryLocation.visibility = View.GONE
             preferencesHelper.cartDeliveryPref = ""
@@ -131,7 +131,7 @@ class CartActivity : AppCompatActivity() {
         binding.radioDelivery.setOnClickListener {
             binding.radioDelivery.isChecked = true
             binding.radioPickup.isChecked = false
-            binding.textDeliveryPrice.text = "₹"+deliveryPrice.toInt().toString()
+            binding.textDeliveryPrice.text = "$"+deliveryPrice.toInt().toString()
             isPickup = false
             binding.textDeliveryLocation.visibility = View.VISIBLE
             updateCartUI()
@@ -148,7 +148,7 @@ class CartActivity : AppCompatActivity() {
                 if(!preferencesHelper.cartShopInfo.isNullOrEmpty()){
                     binding.textInfo.text = preferencesHelper.cartShopInfo
                 }else{
-                    binding.textInfo.text = "Any information to convey to " + shop?.shopModel?.name + "?"
+                    binding.textInfo.text = "Cualquier información para transmitir a " + shop?.shopModel?.name + "?"
                 }
                 dialog.dismiss()
             }
@@ -165,7 +165,7 @@ class CartActivity : AppCompatActivity() {
                 if(!preferencesHelper.cartDeliveryLocation.isNullOrEmpty()){
                     binding.textDeliveryLocation.text = preferencesHelper.cartDeliveryLocation
                 }else{
-                    binding.textDeliveryLocation.text = "Enter delivery location"
+                    binding.textDeliveryLocation.text = "Ingrese la ubicación de entrega"
                 }
                 dialog.dismiss()
             }
@@ -177,7 +177,7 @@ class CartActivity : AppCompatActivity() {
             when(it.status){
                 Resource.Status.LOADING -> {
                     errorSnackBar.dismiss()
-                    progressDialog.setMessage("Verifying cart items...")
+                    progressDialog.setMessage("Verificando artículos del carrito...")
                     progressDialog.show()
                 }
                 Resource.Status.SUCCESS -> {
@@ -187,7 +187,7 @@ class CartActivity : AppCompatActivity() {
                 }
                 Resource.Status.OFFLINE_ERROR -> {
                     progressDialog.dismiss()
-                    errorSnackBar.setText("No Internet Connection")
+                    errorSnackBar.setText("Sin conexión a Internet")
                     errorSnackBar.show()
                 }
                 Resource.Status.ERROR -> {
@@ -195,7 +195,7 @@ class CartActivity : AppCompatActivity() {
                     if(!it.message.isNullOrEmpty()){
                         errorSnackBar.setText(it.message.toString())
                     }else{
-                        errorSnackBar.setText("Cart verify failed")
+                        errorSnackBar.setText("Verificación del carrito fallida")
                     }
                     errorSnackBar.show()
                 }
@@ -211,29 +211,29 @@ class CartActivity : AppCompatActivity() {
         binding.layoutShop.textShopName.text = shop?.shopModel?.name
         if(shop?.configurationModel?.isOrderTaken==1){
             if(shop?.configurationModel?.isDeliveryAvailable==1){
-                binding.layoutShop.textShopDesc.text = "Closes at "+shop?.shopModel?.closingTime?.substring(0,5)
+                binding.layoutShop.textShopDesc.text = "Cierra a las "+shop?.shopModel?.closingTime?.substring(0,5)
             }else{
-                binding.layoutShop.textShopDesc.text = "Closes at "+shop?.shopModel?.closingTime?.substring(0,5)+" (Delivery not available)"
+                binding.layoutShop.textShopDesc.text = "Cierra a las "+shop?.shopModel?.closingTime?.substring(0,5)+" (Delivery not available)"
             }
         }else{
-            binding.layoutShop.textShopDesc.text = "Closed Now"
+            binding.layoutShop.textShopDesc.text = "Cierra ahora"
         }
         binding.layoutShop.textShopRating.text = shop?.ratingModel?.rating.toString()
         if(!preferencesHelper.cartShopInfo.isNullOrEmpty()){
             binding.textInfo.text = preferencesHelper.cartShopInfo
         }else{
-            binding.textInfo.text = "Any information to convey to " + shop?.shopModel?.name + "?"
+            binding.textInfo.text = "Cualquier información para transmitir a " + shop?.shopModel?.name + "?"
         }
         if(!preferencesHelper.cartDeliveryLocation.isNullOrEmpty()){
             binding.textDeliveryLocation.text = preferencesHelper.cartDeliveryLocation
         }else{
-            binding.textDeliveryLocation.text = "Enter delivery location"
+            binding.textDeliveryLocation.text = "Ingrese la ubicación de entrega"
         }
         if(!preferencesHelper.cartDeliveryPref.isNullOrEmpty()){
             if(preferencesHelper.cartDeliveryPref=="delivery") {
                 binding.radioDelivery.isChecked = true
                 binding.radioPickup.isChecked = false
-                binding.textDeliveryPrice.text = "₹" + deliveryPrice.toInt().toString()
+                binding.textDeliveryPrice.text = "$" + deliveryPrice.toInt().toString()
                 isPickup = false
                 updateCartUI()
                 binding.textDeliveryLocation.visibility = View.VISIBLE

@@ -35,7 +35,7 @@
                     app:expandedTitleMarginStart="16dp"
                     app:expandedTitleTextAppearance="@style/AppbarTitle1"
                     app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
-                    app:title="Sathyasaaaaaaaaaaaaaaaaasasd">
+                    app:title="Menú">
 
 
                     <ss.com.bannerslider.Slider
@@ -122,7 +122,7 @@
                         android:paddingTop="8dp"
                         android:paddingEnd="12dp"
                         android:paddingBottom="8dp"
-                        android:text="Search Menu"
+                        android:text="Buscar menú"
                         android:textSize="14sp" />
 
                     <com.google.android.material.switchmaterial.SwitchMaterial

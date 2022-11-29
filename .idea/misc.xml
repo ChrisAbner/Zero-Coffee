@@ -19,7 +19,7 @@
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_home.xml" value="0.33" />
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_login.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_otp.xml" value="0.33" />
-        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_payment.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_payment.xml" value="0.33" />
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_place_order.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_profile.xml" value="0.33" />
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_restaurant.xml" value="0.25" />
@@ -46,6 +46,8 @@
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/layout_states.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/shimmering_item_order.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/shimmering_item_shop.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1945" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1945" />
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zinger-Android-App-master/app/src/main/res/drawable/bg_rounded.xml" value="0.1945" />
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zinger-Android-App-master/app/src/main/res/layout/activity_cart.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zinger-Android-App-master/app/src/main/res/layout/activity_contributors.xml" value="0.17074275362318841" />
