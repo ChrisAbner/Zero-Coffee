@@ -40,7 +40,7 @@
 				android:fontFamily="@font/poppins_bold"
 				android:gravity="center|start"
 				android:paddingTop="3dp"
-				android:text="Signup"
+				android:text="Registrarse"
 				android:textAppearance="@style/AppbarTitle"
 				android:textColor="@android:color/black"
 				android:textSize="32sp" />
@@ -52,7 +52,7 @@
 				android:fontFamily="@font/poppins_semibold"
 				android:gravity="center|start"
 				android:paddingTop="3dp"
-				android:text="Please fill in the below details"
+				android:text="Por favor complete los detalles a continuación"
 				android:textSize="14sp" />
 
 			<com.google.android.material.textfield.TextInputEditText
@@ -61,7 +61,7 @@
 				android:layout_height="wrap_content"
 				android:layout_marginTop="16dp"
 				android:fontFamily="@font/poppins_semibold"
-				android:hint="Name"
+				android:hint="Nombre"
 				android:inputType="textPersonName" />
 
 			<com.google.android.material.textfield.TextInputEditText
@@ -70,7 +70,7 @@
 				android:layout_height="wrap_content"
 				android:layout_marginTop="16dp"
 				android:fontFamily="@font/poppins_semibold"
-				android:hint="Email"
+				android:hint="Correo electrónico"
 				android:inputType="textEmailAddress" />
 
 			<LinearLayout
@@ -94,7 +94,7 @@
 					android:paddingTop="8dp"
 					android:paddingEnd="8dp"
 					android:paddingBottom="8dp"
-					android:text="Select your campus"
+					android:text="Selecciona tu salón"
 					android:textSize="16sp" />
 			</LinearLayout>
 

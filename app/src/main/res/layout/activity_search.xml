@@ -62,7 +62,7 @@
 						android:layout_marginTop="16dp"
 						android:gravity="center|start"
 						android:paddingTop="3dp"
-						android:text="Search your favourite outlet or dish in your campus"
+						android:text="Busca tu punto de venta o plato favorito en tu campus"
 						android:textAppearance="@style/AppbarTitle"
 						android:textColor="@android:color/black" />
 

@@ -29,15 +29,15 @@
 					android:layout_gravity="center" />
 
 				<TextView
+					android:id="@+id/text_place_order_status"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_gravity="center"
 					android:layout_margin="16dp"
-					android:id="@+id/text_place_order_status"
 					android:fontFamily="@font/poppins_bold"
 					android:gravity="center"
 					android:paddingTop="3dp"
-					android:text="Placing order"
+					android:text="Pedido realizado"
 					android:textAppearance="@style/AppbarTitle"
 					android:textColor="@android:color/black"
 					android:textSize="18sp" />

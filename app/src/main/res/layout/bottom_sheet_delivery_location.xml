@@ -27,7 +27,7 @@
                 android:layout_marginEnd="16dp"
                 android:fontFamily="@font/poppins_bold"
                 android:gravity="center|start"
-                android:text="Enter Delivery Location"
+                android:text="Ingrese el salón de la entrega"
                 android:textColor="@android:color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -42,7 +42,7 @@
                 android:layout_marginBottom="16dp"
                 android:fontFamily="@font/open_sans_semibold"
                 android:gravity="start|center"
-                android:hint="eg: PG hostel"
+                android:hint="Por ejemplo: salon 8105"
                 android:paddingBottom="16dp"
                 android:textColor="@android:color/black"
                 android:textSize="16sp" />
@@ -54,7 +54,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="16dp"
-                android:text="Save"
+                android:text="Guardar"
                 app:backgroundTint="@color/colorAccent" />
         </LinearLayout>
 

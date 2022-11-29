@@ -37,7 +37,7 @@
                     android:drawablePadding="4dp"
                     android:fontFamily="@font/open_sans_semibold"
                     android:gravity="start|center"
-                    android:hint="Search campus"
+                    android:hint="Buscar salón"
                     android:imeOptions="actionSearch"
                     android:maxLines="1"
                     android:padding="10dp"

@@ -45,7 +45,7 @@
                         android:textColor="@android:color/black"
                         android:textSize="16sp"
                         android:textStyle="bold"
-                        tools:text="Sathyas Main Canteen" />
+                        tools:text="Cafetería UCC" />
 
                     <TextView
                         android:id="@+id/text_order_time"
@@ -63,16 +63,16 @@
                     android:layout_gravity="center"
                     android:orientation="vertical">
 
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="end"
                         android:fontFamily="@font/open_sans_bold"
                         android:gravity="end"
-                        android:text="AMOUNT"
+                        android:text="CANTIDAD"
                         android:textColor="@android:color/tab_indicator_text"
                         android:textSize="10sp" />
-
 
                     <TextView
                         android:id="@+id/text_order_price"
@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/open_sans_bold"
-                android:text="ITEMS"
+                android:text="Artículos"
                 android:textColor="@android:color/tab_indicator_text"
                 android:textSize="10sp" />
 
@@ -108,7 +108,7 @@
                 android:maxLines="2"
                 android:textColor="@color/colorAccentLight"
                 android:textSize="12sp"
-                tools:text="1 X Chicken noodles\n2 X Lemon Juice" />
+                tools:text="1 X Fideos de pollo\n2 X Jugo de limón" />
 
             <TextView
                 android:id="@+id/text_view_more"
@@ -147,7 +147,7 @@
                     android:paddingBottom="4dp"
                     android:textColor="@android:color/black"
                     android:textSize="16sp"
-                    tools:text="Pending" />
+                    tools:text="Pendiente" />
 
                 <View
                     android:layout_width="0dp"
@@ -177,7 +177,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="end"
                     android:fontFamily="@font/poppins_semibold"
-                    android:text="track order"
+                    android:text="Seguimiento"
                     android:textSize="12sp"
                     android:visibility="visible"
                     app:backgroundTint="@color/colorAccent"

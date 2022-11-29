@@ -54,7 +54,7 @@
 					android:fontFamily="@font/poppins_medium"
 					android:textColor="@android:color/tab_indicator_text"
 					android:textSize="12sp"
-					tools:text="Opens at 7AM" />
+					tools:text="Abre a las 7AM" />
 
 				<TextView
 					android:id="@+id/text_shop_rating"

@@ -24,14 +24,14 @@
 			<com.google.android.material.radiobutton.MaterialRadioButton
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
+				android:layout_margin="8dp"
 				android:fontFamily="@font/poppins_semibold"
-				android:textColor="@android:color/black"
 				android:paddingStart="8dp"
 				android:paddingEnd="8dp"
-				android:layout_margin="8dp"
+				android:text="Tarjeta de crédito"
+				android:textColor="@android:color/black"
 				android:textSize="14sp"
-				android:textStyle="bold"
-				android:text="Credit Card"/>
+				android:textStyle="bold" />
 			<com.google.android.material.card.MaterialCardView
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"

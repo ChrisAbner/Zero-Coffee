@@ -12,7 +12,36 @@
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/drawable/bg_rounded_green.xml" value="0.1945" />
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_cart.xml" value="0.25" />
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_contact_us.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_contributor_detail.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_contributors.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_home.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_payment.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_place_order.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_restaurant.xml" value="0.25" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_search.xml" value="0.33" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/activity_web_view.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/bottom_sheet_campus_list.xml" value="0.25" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/bottom_sheet_delivery_location.xml" value="0.25" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/bottom_sheet_rate_food.xml" value="0.33" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/bottom_sheet_shop_info.xml" value="0.25" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/bottom_sheet_verify_otp.xml" value="0.5" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/header_layout.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/inc_dec_view.xml" value="0.5" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/item_campus.xml" value="0.33" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/item_cart_product.xml" value="0.33" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/item_food.xml" value="0.5" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/item_order.xml" value="0.67" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/item_order_product.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/item_order_status.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/item_payment_mode.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/item_search.xml" value="0.33" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/item_shop.xml" value="0.5" />
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/item_shop_small.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/layout_states.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/shimmering_item_order.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52229/AndroidStudioProjects/Zero-Coffee/app/src/main/res/layout/shimmering_item_shop.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zinger-Android-App-master/app/src/main/res/drawable/bg_rounded.xml" value="0.1945" />
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zinger-Android-App-master/app/src/main/res/layout/activity_cart.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/52229/AndroidStudioProjects/Zinger-Android-App-master/app/src/main/res/layout/activity_contributors.xml" value="0.17074275362318841" />

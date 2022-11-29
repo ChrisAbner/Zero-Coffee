@@ -43,7 +43,7 @@
 					android:textColor="@android:color/black"
 					android:textSize="16sp"
 					android:textStyle="bold"
-					tools:text="Masala Dosa" />
+					tools:text="Cafetería chica" />
 
 				<TextView
 					android:id="@+id/text_shop_desc"
@@ -53,7 +53,7 @@
 					android:fontFamily="@font/poppins_medium"
 					android:textColor="@color/colorAccentLight"
 					android:textSize="12sp"
-					tools:text="Store name" />
+					tools:text="Nombre de la tienda" />
 
 				<TextView
 					android:id="@+id/text_shop_rating"
