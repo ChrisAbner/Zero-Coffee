@@ -47,7 +47,7 @@
                 android:fontFamily="@font/poppins_bold"
                 android:gravity="center|start"
                 android:paddingTop="3dp"
-                android:text="Contributors"
+                android:text="Contribuidores"
                 android:textAppearance="@style/AppbarTitle"
                 android:textColor="@android:color/black"
                 android:textSize="32sp" />
@@ -61,7 +61,7 @@
                 android:fontFamily="@font/poppins_semibold"
                 android:gravity="center|start"
                 android:paddingTop="3dp"
-                android:text="People who developed this amazing app"
+                android:text="El equipo que desarrollo esta app"
                 android:textSize="14sp" />
 
 
@@ -113,7 +113,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/poppins_semibold"
-                            android:text="Shrikanth Ravi"
+                            android:text="Chris Abner"
                             android:textColor="@android:color/black"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -123,7 +123,7 @@
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:fontFamily="@font/poppins_medium"
-                            android:text="Android Developer &amp; UI Designer"
+                            android:text="Desarrollador Android y Diseñador de UI"
                             android:textColor="@android:color/tab_indicator_text"
                             android:textSize="12sp" />
                     </LinearLayout>
@@ -180,7 +180,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/poppins_semibold"
-                            android:text="Harshavardhan P"
+                            android:text="Abraham Ortiz"
                             android:textColor="@android:color/black"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -190,7 +190,7 @@
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:fontFamily="@font/poppins_medium"
-                            android:text="Android &amp; Backend Developer"
+                            android:text="Android y desarrollo backend"
                             android:textColor="@android:color/tab_indicator_text"
                             android:textSize="12sp" />
                     </LinearLayout>
@@ -247,7 +247,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/poppins_semibold"
-                            android:text="Logesh Dinakaran"
+                            android:text="Romeo Zetina"
                             android:textColor="@android:color/black"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -257,7 +257,7 @@
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:fontFamily="@font/poppins_medium"
-                            android:text="Backend Development"
+                            android:text="Desarrollo backend"
                             android:textColor="@android:color/tab_indicator_text"
                             android:textSize="12sp" />
                     </LinearLayout>

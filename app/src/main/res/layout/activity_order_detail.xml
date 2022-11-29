@@ -76,7 +76,7 @@
                                 android:paddingTop="3dp"
                                 android:textAppearance="@style/AppbarTitle"
                                 android:textColor="@android:color/white"
-                                tools:text="Track your order" />
+                                tools:text="Rastrea tu orden" />
 
                             <ImageView
                                 android:id="@+id/image_refresh"
@@ -155,7 +155,7 @@
                         android:textColor="@android:color/black"
                         android:textSize="16sp"
                         android:textStyle="bold"
-                        tools:text="Sathyas Main Canteen" />
+                        tools:text="UCC Cafeteria" />
 
                     <TextView
                         android:id="@+id/text_order_time"
@@ -179,7 +179,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="end"
                         android:fontFamily="@font/open_sans_bold"
-                        android:text="SECRET KEY"
+                        android:text="Clave secreta"
                         android:textColor="@android:color/tab_indicator_text"
                         android:textSize="10sp" />
 
@@ -265,7 +265,7 @@
                             android:layout_marginStart="16dp"
                             android:layout_marginTop="16dp"
                             android:fontFamily="@font/open_sans_bold"
-                            android:text="ORDER ID"
+                            android:text="ID DE ORDEN"
                             android:textColor="@color/captionColor"
                             android:textSize="12sp" />
 
@@ -303,7 +303,7 @@
                             android:layout_marginStart="16dp"
                             android:layout_marginTop="16dp"
                             android:fontFamily="@font/open_sans_bold"
-                            android:text="TRANSACTION ID"
+                            android:text="ID DE TRANSACCIÓN"
                             android:textColor="@color/captionColor"
                             android:textSize="12sp" />
 

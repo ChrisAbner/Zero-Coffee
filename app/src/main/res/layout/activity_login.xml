@@ -37,7 +37,7 @@
 					android:fontFamily="@font/poppins_bold"
 					android:gravity="center|start"
 					android:paddingTop="3dp"
-					android:text="Welcome to\nZinger"
+					android:text="Bienvenido a\nZero Coffee"
 					android:textAppearance="@style/AppbarTitle"
 					android:textColor="@android:color/black"
 					android:textSize="32sp" />

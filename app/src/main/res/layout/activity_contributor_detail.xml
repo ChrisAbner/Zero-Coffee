@@ -68,7 +68,7 @@
                 android:fontFamily="@font/poppins_bold"
                 android:gravity="center"
                 android:paddingTop="3dp"
-                android:text="Shrikanth Ravi"
+                android:text="Chris Abner"
                 android:textAppearance="@style/AppbarTitle"
                 android:textColor="@android:color/black"
                 android:textSize="24sp" />
@@ -83,7 +83,7 @@
                 android:fontFamily="@font/poppins_semibold"
                 android:gravity="center"
                 android:paddingTop="3dp"
-                android:text="Android Developer &amp; UI Designer"
+                android:text="Desarrollardor Android y Diseñador de UI"
                 android:textSize="14sp" />
 
 
@@ -195,7 +195,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/poppins_semibold"
-                            android:text="LinkedIn"
+                            android:text="Facebook"
                             android:textColor="@android:color/white"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -208,7 +208,7 @@
                             android:ellipsize="end"
                             android:fontFamily="@font/poppins_medium"
                             android:singleLine="true"
-                            android:text="Shrikanth Ravi"
+                            android:text="Chris Abner"
                             android:textColor="#C8C8C8"
                             android:textSize="12sp" />
                     </LinearLayout>
@@ -271,7 +271,7 @@
                             android:ellipsize="end"
                             android:fontFamily="@font/poppins_medium"
                             android:singleLine="true"
-                            android:text="shrikanthravi.me@gmail.com"
+                            android:text="chrisabner@hotmail.com"
                             android:textColor="#E1E1E1"
                             android:textSize="12sp" />
                     </LinearLayout>
@@ -336,7 +336,7 @@
                             android:ellipsize="end"
                             android:fontFamily="@font/poppins_medium"
                             android:singleLine="true"
-                            android:text="shrikanthravi.me"
+                            android:text="chrisabner.me"
                             android:textColor="#E1E1E1"
                             android:textSize="12sp" />
                     </LinearLayout>
