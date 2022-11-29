@@ -42,7 +42,7 @@
 				android:textColor="@android:color/black"
 				android:textSize="14sp"
 				android:textStyle="bold"
-				tools:text="Plain Dosa" />
+				tools:text="Hot cakes" />
 
 			<include
 				android:id="@+id/layoutQuantityControl"
@@ -61,7 +61,7 @@
 				android:fontFamily="@font/open_sans_semibold"
 				android:gravity="center|end"
 				android:minWidth="60dp"
-				android:text="₹50"
+				android:text="$50"
 				android:textColor="@android:color/black"
 				android:textSize="14dp"
 				android:textStyle="bold" />

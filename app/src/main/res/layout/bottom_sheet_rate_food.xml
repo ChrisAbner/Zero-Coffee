@@ -27,7 +27,7 @@
                 android:layout_marginEnd="16dp"
                 android:fontFamily="@font/poppins_bold"
                 android:gravity="center|start"
-                android:text="Rate your order"
+                android:text="Valora tu pedido"
                 android:textColor="@android:color/black"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -62,7 +62,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="16dp"
-                android:text="Rate"
+                android:text="Calificar"
                 app:backgroundTint="@color/colorAccent" />
         </LinearLayout>
 
