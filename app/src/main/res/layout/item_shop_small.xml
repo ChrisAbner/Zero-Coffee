@@ -46,7 +46,7 @@
 					android:textColor="@android:color/black"
 					android:textSize="16sp"
 					android:textStyle="bold"
-					tools:text="Sathyas Main Canteen" />
+					tools:text="Ulises Morales" />
 
 				<TextView
 					android:id="@+id/text_shop_desc"
@@ -58,7 +58,7 @@
 					android:textColor="@android:color/tab_indicator_text"
 					android:textSize="12sp"
 					android:visibility="visible"
-					tools:text="Opens at 7AM" />
+					tools:text="Abre a las 7AM" />
 
 				<TextView
 					android:id="@+id/text_shop_rating"
