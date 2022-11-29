@@ -144,7 +144,7 @@
                             android:ellipsize="end"
                             android:fontFamily="@font/poppins_medium"
                             android:singleLine="true"
-                            android:text="shrikanth7698"
+                            android:text="ChrisAbner"
                             android:textColor="@android:color/tab_indicator_text"
                             android:textSize="12sp" />
                     </LinearLayout>
